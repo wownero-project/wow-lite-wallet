@@ -1,7 +1,7 @@
 <template>
     <div class="row navigation" style="margin-top:20px;">
         <div class="col-md-3">
-            <button v-on:click="goBack" type="button" class="btn btn-success pull-left">
+            <button v-on:click="goBack" type="button" class="btn btn-success pull-left nes-btn is-success">
                 <!-- fa fa-refresh fa-spin -->
                 <i class="fa fa-arrow-left" aria-hidden="true"></i>
                 Go back
@@ -16,7 +16,7 @@
             </div>
         </div>
         <div class="col-md-3">
-            <button style="float:right;" v-on:click="goNext" type="button" class="btn btn-success btn_next pull-right">
+                <button style="float:right;" v-on:click="goNext" type="button" class="btn btn-success btn_next pull-right nes-btn is-success">
                 <div style="display:inline" v-if="appState === 'create_wallet'">
                     <i class="fa fa-refresh fa-spin" aria-hidden="true"></i>
                 </div>

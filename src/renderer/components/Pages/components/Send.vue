@@ -9,25 +9,25 @@
                 <div class="row">
                     <div class="col-md-12">
                         <form id="sendForm" role="form" lpformnum="2" _lpchecked="1" onsubmit="return false;">
-                            <!-- text input -->
-                            <div class="form-group">
-                                <label>Destination address</label>
-                                <textarea placeholder="WO/SO..." rows=1 v-on:input="validate" class="form-control address"></textarea>
+                            <div class="row" style="padding-left:20px;padding-right:20px">
+                                <section class="col-md-12 form-group nes-container with-title">
+                                    <h3 class="title">Destination Address</h3> 
+                                    <input placeholder="WO/SO..." type="text" rows=1 v-on:input="validate" class="form-control address">
+                                </section>
                             </div>
+                            <br>
 
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <div class="form-group amount">
-                                        <label>Amount <small class="amount_btc"></small></label>
-                                        <input type="text" v-on:input="validate" v-on:keypress="isAmount()" name="amount" class="form-control amount" placeholder="Amount">
-                                    </div>
-                                </div>
-                                <div class="col-md-6"></div>
+                            <div class="row" style="padding-left:20px;padding-right:20px">
+                                 <section class="col-md-5 form-group nes-container with-title">
+                                    <h3 class="title">Amount <small class="amount_usd"></small></h3> 
+                                    <input placeholder="Amount" type="text" rows=1 v-on:input="validate" 
+                                    v-on:keypress="isAmount()" name="amount" class="form-control amount">
+                                </section>
+                                <div class="col-md-4"></div>
                                 <div class="col-md-3">
                                     <div class="form-group pull-right">
                                         <label>&nbsp;</label>
-
-                                        <button class="btn btn-primary send_btn disabled" style="display:block;min-width: 140px;"v-on:click="sendMonies();" type="submit">Send</button>
+                                        <button class="btn btn-primary send_btn disabled" style="display:block;min-width: 140px;" v-on:click="sendMonies();" type="submit">Send</button>
                                     </div>
                                 </div>
                             </div>

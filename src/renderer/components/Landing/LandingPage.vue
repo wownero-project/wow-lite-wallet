@@ -4,24 +4,16 @@
             <div class="col-sm-7">
                 <img id="logo" src="~@/assets/wownero-light-intro.png" alt="electron-vue">
 
-                <button id="create_wallet_btn" v-on:click="createWallet" type="button" class="btn btn-success btn-sm">
-                    <i class="fa fa-plus" id="create_wallet_icon" aria-hidden="true"></i>
+                 <button id="create_wallet_btn" v-on:click="createWallet" type="button" class="btn btn-success btn-xs nes-btn is-success">
                     Create wallet
                 </button>
 
-                <button id="create_wallet_btn" v-on:click="openWallet" type="button" class="btn btn-success btn-sm">
-                    <i class="fa fa-plus" id="create_wallet_icon" aria-hidden="true"></i>
+                <button id="create_wallet_btn" v-on:click="openWallet" type="button" class="btn btn-success btn-xs nes-btn is-success">
                     Open wallet
                 </button>
 
-                <button id="" v-on:click="settings" type="button" class="btn btn-success btn-sm">
-                    <!-- fa fa-refresh fa-spin -->
-                    <i class="fa fa-cog" aria-hidden="true"></i>
+                 <button id="" v-on:click="settings" type="button" class="btn btn-success btn-xs nes-btn is-success">
                     Settings
-                </button>
-
-                <button type="button" class="btn btn-success btn-sm">
-                    Does nothing
                 </button>
             </div>
 

@@ -11,13 +11,13 @@
                     It's your only chance to recover a lost wallet.
                 </p>
                 <p>
-                    <textarea style="height:150px" class="seed" name="text" rows="6" cols="40" :value="wallet.seed"></textarea>
+                    <textarea style="height:150px" class="seed nes-textarea" name="text" rows="6" cols="40" :value="wallet.seed"></textarea>
                 </p>
                 <span class="title">
                     View key
                 </span>
                 <p>
-                    <textarea style="height:70px" class="seed" name="text" rows="6" cols="40" :value="wallet.view_key"></textarea>
+                    <textarea style="height:70px" class="seed nes-textarea" name="text" rows="6" cols="40" :value="wallet.view_key"></textarea>
                 </p>
             </div>
             <div class="col-md-6">
@@ -47,8 +47,7 @@
                 <div class="form-check" style="margin-top:14px;">
                     <label class="form-check-label">
                         <input v-on:click="toggleValid" class="form-check-input" type="checkbox" value="" id="tos_checkbox">
-                        This is an useless checkbox. You are required to tick it. Sucks, but there are worse things in life.
-
+                        Tick me to continue
                     </label>
                 </div>
             </div>

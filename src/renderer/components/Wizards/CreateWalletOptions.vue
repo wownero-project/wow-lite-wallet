@@ -4,19 +4,20 @@
         <div class="row">
             <div class="col-md-6">
                 <form class="wallet_form" v-on:submit.prevent="onSubmit">
-                    <div class="form-group">
-                        <label for="name" class="control-label">Wallet name</label>
+                    <section class="form-group nes-container with-title">
+                        <h3 for="name" class="title">Wallet Name</h3> 
                         <input value="test" id="name" name="name" type="text" class="form-control" required="required">
-                    </div>
-                    <div class="form-group">
-                        <label for="password" class="control-label">Wallet password</label>
-                        <input id="password" name="password" type="password" class="form-control" aria-describedby="passwordHelpBlock">
-                        <span id="passwordHelpBlock" class="help-block">A wallet password is recommended but not required.</span>
-                    </div>
-                    <div class="form-group">
-                        <label for="location" class="control-label">Wallet path</label>
+                     </section>
+                    <br>
+                    <section class="form-group nes-container with-title">
+                        <h3 for="name" class="title">Wallet Password</h3> 
+                        <input id="name" name="password" type="password" class="form-control" required="required" aria-describedby="passwordHelpBlock">
+                    </section>
+                    <br>
+                     <section class="form-group nes-container with-title">
+                        <h3 for="location"  class="title">Wallet Path</h3>
                         <input :value="walletDir" id="location" name="location" type="text" class="form-control" aria-describedby="locationHelpBlock" disabled>
-                    </div>
+                    </section>
                 </form>
             </div>
             <div class="col-md-6">

@@ -31,7 +31,7 @@
                                 <input type="password" id="password" class="form-control" placeholder="..." required="" autofocus autocomplete="off" style="z-index:666;">
                             </div>
                             <div class="col-sm-3">
-                                <button id="x_btn2" v-on:click="submitPassword" type="button" class="btn btn-success">
+                                 <button id="x_btn2" v-on:click="submitPassword" type="button" class="btn btn-success nes-btn is-success">
                                     <!-- fa fa-refresh fa-spin -->
                                     <i class="fa fa-folder-open" aria-hidden="true"></i>
                                     Open
@@ -210,6 +210,7 @@
 
 <style>
     @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+    @import url('~@/assets/nes.min.css');
     @import url('~@/assets/wow.css');
 </style>
 
