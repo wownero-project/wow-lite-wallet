@@ -20,7 +20,7 @@ If `npm run dev` works, you can install a custom version of `wownero-wallet-cli`
 #### wownero-wallet-cli :star2:
 
 ```
-git clone https://github.com/wownero/wownero.git
+git clone https://git.wownero.com/wownero/wownero.git
 cd wownero
 git checkout <latest version here>
 git apply light_patch.diff
