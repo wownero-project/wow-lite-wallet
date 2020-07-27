@@ -2,7 +2,7 @@
     "name": "wowlite",
     "version": "0.1.4",
     "__version": "bumping this should also bump LandingPage.vue (version checker)",
-    "author": "ride <ridethe@candy.surf >",
+    "author": "dsc <xmrdsc@protonmail.com>",
     "description": "Wownero Lite Wallet",
     "license": "WTFPL",
     "main": "./dist/electron/main.js",
